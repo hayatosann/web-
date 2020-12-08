@@ -1,0 +1,192 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body{
+  line-height: 1.8;
+}
+
+header{
+  background-color: rgb(252, 225, 189);
+  width:100vw;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  opacity: 0.5;
+}
+
+.header-right ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-right li{
+  margin: 20px 8px;
+}
+
+.header-image{
+  background: url(./sample.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 64px);
+}
+
+.sample1{
+  padding:70px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2{
+  text-align: center;
+  padding: 40px 0;
+}
+
+.content{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card{
+  /* border: solid 2px black; */
+  width: 30%;
+}
+
+.card img{
+  width:100%;
+}
+
+.sample2{
+  background-color: rgb(248, 227, 198);
+  padding:70px 0;
+}
+
+h2{
+  text-align: center;
+  padding: 40px 0;
+}
+
+.background-zone{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.container p{
+  width: 50%;
+  padding:0 20px;
+}
+
+.container img{
+  width:50%;
+}
+
+.sample3{
+  padding:70px 0;
+}
+
+.Form {
+  padding: 40px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+  border: solid 6px rgb(87,63,45);
+  border-radius: 5%;
+  box-shadow: 0px 0px 5px;
+}
+
+.Form-Item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: rgb(62,45,34);
+  color: #fff;
+  font-size: 14px;
+}
+
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: rgb(62,45,34);
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer{
+  background-color: rgb(252, 225, 189);
+  height: 140px;
+}
